@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a920a1489d964e64bbcfa987c423d80e, type: 3}
+  m_Name: GrillStationSO
+  m_EditorClassIdentifier: 
+  toolId: GrillStation
+  displayName: Grill Station
+  icon: {fileID: 0}
+  speedModifier: 1
+  qualityModifier: 0
+  allowedActions:
+  - {fileID: 11400000, guid: 15dd04b4c31fae948b5d9732c5d59827, type: 2}
+  - {fileID: 11400000, guid: e3ba8de0bb5691e42930804d77d6beb9, type: 2}
+  - {fileID: 11400000, guid: 7571c9d39e6048f4db0d5113ec7427f8, type: 2}
+  allowedIngredientTypes: 040000000000000005000000090000000a000000
+  allowedPhysicalStates: 0100000006000000

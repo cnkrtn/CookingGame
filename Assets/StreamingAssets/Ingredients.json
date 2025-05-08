@@ -1,0 +1,1496 @@
+{"ingredients":[
+  {
+    "iD":"tomato",
+    "ingredientName":"Tomato",
+    "type":"Vegetable",
+    "physicalStates":["Solid"],
+    "hints":["Raw","Fresh","ToBeChopped","ToBeSliced","ToBeDiced","ToBePureed"],
+    "flavorings":["Sweetener","Acid"],
+    "baseSimValues":{"sweetness":0.30,"sourness":0.40,"bitterness":0.10,"saltiness":0.00,"savoury":0.20,"aroma":0.30,"spice":0.00,"fat":0.00,"crunch":0.60,"moisture":0.80},
+    "flavorTags":[
+      {"archetype":"Sweet","intensity":"Medium"},
+      {"archetype":"Sour","intensity":"Medium"},
+      {"archetype":"Crunchy","intensity":"Medium"},
+      {"archetype":"Fragrant","intensity":"Medium"},
+      {"archetype":"Earthy","intensity":"Low"},
+      {"archetype":"Sharp","intensity":"Low"},
+      {"archetype":"Clean","intensity":"Low"}
+    ],
+    "cookCategory":"Fast","cookTimeScale":1.0,"underFrac":0.2,"overFrac":1.2
+  },
+  {
+    "iD":"broccoli",
+    "ingredientName":"Broccoli",
+    "type":"Vegetable",
+    "physicalStates":["Solid"],
+    "hints":["Raw","Fresh","ToBeChopped","ToBeDiced"],
+    "flavorings":[],
+    "baseSimValues":{"sweetness":0.10,"sourness":0.10,"bitterness":0.20,"saltiness":0.00,"savoury":0.20,"aroma":0.30,"spice":0.00,"fat":0.00,"crunch":0.70,"moisture":0.60},
+    "flavorTags":[
+      {"archetype":"Crunchy","intensity":"Medium"},
+      {"archetype":"Fragrant","intensity":"Medium"},
+      {"archetype":"Earthy","intensity":"Low"},
+      {"archetype":"Lingering","intensity":"Low"},
+      {"archetype":"Clean","intensity":"Low"}
+    ],
+    "cookCategory":"Fast","cookTimeScale":1.0,"underFrac":0.2,"overFrac":1.2
+  },
+  {
+    "iD":"spinach",
+    "ingredientName":"Spinach",
+    "type":"Vegetable",
+    "physicalStates":["Solid"],
+    "hints":["Raw","Fresh","ToBeChopped"],
+    "flavorings":[],
+    "baseSimValues":{"sweetness":0.10,"sourness":0.00,"bitterness":0.30,"saltiness":0.00,"savoury":0.30,"aroma":0.20,"spice":0.00,"fat":0.00,"crunch":0.20,"moisture":0.70},
+    "flavorTags":[
+      {"archetype":"Bitter","intensity":"Medium"},
+      {"archetype":"Savory","intensity":"Medium"},
+      {"archetype":"Earthy","intensity":"Low"},
+      {"archetype":"Astringent","intensity":"Low"},
+      {"archetype":"Clean","intensity":"Low"}
+    ],
+    "cookCategory":"Fast","cookTimeScale":1.0,"underFrac":0.2,"overFrac":1.2
+  },
+  {
+    "iD":"zucchini",
+    "ingredientName":"Zucchini",
+    "type":"Vegetable",
+    "physicalStates":["Solid"],
+    "hints":["Raw","Fresh","ToBeChopped","ToBeSliced","ToBeDiced"],
+    "flavorings":[],
+    "baseSimValues":{"sweetness":0.20,"sourness":0.10,"bitterness":0.10,"saltiness":0.00,"savoury":0.20,"aroma":0.20,"spice":0.00,"fat":0.00,"crunch":0.50,"moisture":0.80},
+    "flavorTags":[
+      {"archetype":"Crunchy","intensity":"Medium"},
+      {"archetype":"Clean","intensity":"Low"}
+    ],
+    "cookCategory":"Fast","cookTimeScale":1.0,"underFrac":0.2,"overFrac":1.2
+  },
+  {
+    "iD":"bell_pepper",
+    "ingredientName":"Bell Pepper",
+    "type":"Vegetable",
+    "physicalStates":["Solid"],
+    "hints":["Raw","Fresh","ToBeChopped","ToBeSliced","ToBeDiced"],
+    "flavorings":["Sweetener"],
+    "baseSimValues":{"sweetness":0.20,"sourness":0.20,"bitterness":0.10,"saltiness":0.00,"savoury":0.10,"aroma":0.40,"spice":0.00,"fat":0.00,"crunch":0.60,"moisture":0.70},
+    "flavorTags":[
+      {"archetype":"Crunchy","intensity":"Medium"},
+      {"archetype":"Fragrant","intensity":"Medium"},
+      {"archetype":"Lingering","intensity":"Low"},
+      {"archetype":"Clean","intensity":"Low"}
+    ],
+    "cookCategory":"Fast","cookTimeScale":1.0,"underFrac":0.2,"overFrac":1.2
+  },
+  {
+    "iD":"cabbage",
+    "ingredientName":"Cabbage",
+    "type":"Vegetable",
+    "physicalStates":["Solid"],
+    "hints":["Raw","Fresh","ToBeChopped","ToBeDiced","ToBeJulienned"],
+    "flavorings":[],
+    "baseSimValues":{"sweetness":0.10,"sourness":0.10,"bitterness":0.20,"saltiness":0.00,"savoury":0.20,"aroma":0.20,"spice":0.00,"fat":0.00,"crunch":0.60,"moisture":0.70},
+    "flavorTags":[
+      {"archetype":"Crunchy","intensity":"Medium"},
+      {"archetype":"Astringent","intensity":"Low"},
+      {"archetype":"Earthy","intensity":"Low"},
+      {"archetype":"Clean","intensity":"Low"}
+    ],
+    "cookCategory":"Fast","cookTimeScale":1.0,"underFrac":0.2,"overFrac":1.2
+  },
+  {
+    "iD":"green_beans",
+    "ingredientName":"Green Beans",
+    "type":"Vegetable",
+    "physicalStates":["Solid"],
+    "hints":["Raw","Fresh","ToBeChopped"],
+    "flavorings":[],
+    "baseSimValues":{"sweetness":0.20,"sourness":0.10,"bitterness":0.10,"saltiness":0.00,"savoury":0.20,"aroma":0.20,"spice":0.00,"fat":0.00,"crunch":0.70,"moisture":0.60},
+    "flavorTags":[
+      {"archetype":"Crunchy","intensity":"Medium"},
+      {"archetype":"Earthy","intensity":"Low"},
+      {"archetype":"Clean","intensity":"Low"}
+    ],
+    "cookCategory":"Fast","cookTimeScale":1.0,"underFrac":0.2,"overFrac":1.2
+  },
+  {
+    "iD":"eggplant",
+    "ingredientName":"Eggplant",
+    "type":"Vegetable",
+    "physicalStates":["Solid"],
+    "hints":["Raw","Fresh","ToBeSliced"],
+    "flavorings":[],
+    "baseSimValues":{"sweetness":0.10,"sourness":0.00,"bitterness":0.20,"saltiness":0.00,"savoury":0.20,"aroma":0.30,"spice":0.00,"fat":0.00,"crunch":0.30,"moisture":0.70},
+    "flavorTags":[
+      {"archetype":"Crunchy","intensity":"Medium"},
+      {"archetype":"Fragrant","intensity":"Medium"},
+      {"archetype":"Earthy","intensity":"Low"},
+      {"archetype":"Clean","intensity":"Low"}
+    ],
+    "cookCategory":"Fast","cookTimeScale":1.0,"underFrac":0.2,"overFrac":1.2
+  },
+  {
+    "iD":"kale",
+    "ingredientName":"Kale",
+    "type":"Vegetable",
+    "physicalStates":["Solid"],
+    "hints":["Raw","Fresh","ToBeChopped"],
+    "flavorings":[],
+    "baseSimValues":{"sweetness":0.10,"sourness":0.10,"bitterness":0.30,"saltiness":0.00,"savoury":0.20,"aroma":0.20,"spice":0.00,"fat":0.00,"crunch":0.40,"moisture":0.60},
+    "flavorTags":[
+      {"archetype":"Bitter","intensity":"Medium"},
+      {"archetype":"Crunchy","intensity":"Medium"},
+      {"archetype":"Astringent","intensity":"Low"},
+      {"archetype":"Earthy","intensity":"Low"},
+      {"archetype":"Clean","intensity":"Low"}
+    ],
+    "cookCategory":"Fast","cookTimeScale":1.0,"underFrac":0.2,"overFrac":1.2
+  },
+  {
+    "iD":"peas",
+    "ingredientName":"Peas",
+    "type":"Vegetable",
+    "physicalStates":["Solid"],
+    "hints":["Raw","Fresh"],
+    "flavorings":["Sweetener"],
+    "baseSimValues":{"sweetness":0.30,"sourness":0.10,"bitterness":0.00,"saltiness":0.00,"savoury":0.20,"aroma":0.30,"spice":0.00,"fat":0.00,"crunch":0.50,"moisture":0.70},
+    "flavorTags":[
+      {"archetype":"Sweet","intensity":"Medium"},
+      {"archetype":"Crunchy","intensity":"Medium"},
+      {"archetype":"Fragrant","intensity":"Medium"},
+      {"archetype":"Lingering","intensity":"Low"},
+      {"archetype":"Clean","intensity":"Low"}
+    ],
+    "cookCategory":"Fast","cookTimeScale":1.0,"underFrac":0.2,"overFrac":1.2
+  },
+  {
+    "iD":"potato",
+    "ingredientName":"Potato",
+    "type":"Vegetable",
+    "physicalStates":["Solid"],
+    "hints":["Raw","Fresh","ToBePeeled","ToBeDiced","ToBeMashed"],
+    "flavorings":[],
+    "baseSimValues":{"sweetness":0.10,"sourness":0.00,"bitterness":0.00,"saltiness":0.00,"savoury":0.20,"aroma":0.10,"spice":0.00,"fat":0.00,"crunch":0.40,"moisture":0.60},
+    "flavorTags":[
+      {"archetype":"Crunchy","intensity":"Medium"},
+      {"archetype":"Earthy","intensity":"Low"},
+      {"archetype":"Clean","intensity":"Low"}
+    ],
+    "cookCategory":"Fast","cookTimeScale":1.0,"underFrac":0.2,"overFrac":1.2
+  },
+  {
+    "iD":"onion",
+    "ingredientName":"Onion",
+    "type":"Vegetable",
+    "physicalStates":["Solid"],
+    "hints":["Raw","Fresh","ToBeChopped","ToBeSliced","ToBeMinced"],
+    "flavorings":[],
+    "baseSimValues":{"sweetness":0.20,"sourness":0.10,"bitterness":0.10,"saltiness":0.00,"savoury":0.20,"aroma":0.40,"spice":0.00,"fat":0.00,"crunch":0.50,"moisture":0.70},
+    "flavorTags":[
+      {"archetype":"Sweet","intensity":"Low"},
+      {"archetype":"Sour","intensity":"Low"},
+      {"archetype":"Crunchy","intensity":"Medium"},
+      {"archetype":"Fragrant","intensity":"Medium"},
+      {"archetype":"Pungent","intensity":"Medium"},
+      {"archetype":"Sharp","intensity":"Medium"},
+      {"archetype":"Clean","intensity":"Low"}
+    ],
+    "cookCategory":"Fast","cookTimeScale":1.0,"underFrac":0.2,"overFrac":1.2
+  },
+  {
+    "iD":"garlic",
+    "ingredientName":"Garlic",
+    "type":"Vegetable",
+    "physicalStates":["Solid"],
+    "hints":["Raw","Fresh","ToBeCrushed","ToBeMinced"],
+    "flavorings":[],
+    "baseSimValues":{"sweetness":0.10,"sourness":0.00,"bitterness":0.00,"saltiness":0.00,"savoury":0.30,"aroma":0.50,"spice":0.00,"fat":0.00,"crunch":0.10,"moisture":0.30},
+    "flavorTags":[
+      {"archetype":"Savory","intensity":"Medium"},
+      {"archetype":"Fragrant","intensity":"Medium"},
+      {"archetype":"Pungent","intensity":"Medium"},
+      {"archetype":"Sharp","intensity":"Medium"},
+      {"archetype":"Clean","intensity":"Low"}
+    ],
+    "cookCategory":"Fast","cookTimeScale":1.0,"underFrac":0.2,"overFrac":1.2
+  },
+  {
+    "iD":"carrot",
+    "ingredientName":"Carrot",
+    "type":"Vegetable",
+    "physicalStates":["Solid"],
+    "hints":["Raw","Fresh","ToBePeeled","ToBeChopped","ToBeDiced","ToBeJulienned"],
+    "flavorings":["Sweetener"],
+    "baseSimValues":{"sweetness":0.50,"sourness":0.10,"bitterness":0.00,"saltiness":0.00,"savoury":0.10,"aroma":0.30,"spice":0.00,"fat":0.00,"crunch":0.80,"moisture":0.60},
+    "flavorTags":[
+      {"archetype":"Sweet","intensity":"Medium"},
+      {"archetype":"Crunchy","intensity":"High"},
+      {"archetype":"Fragrant","intensity":"Medium"},
+      {"archetype":"Earthy","intensity":"Low"},
+      {"archetype":"Clean","intensity":"Low"}
+    ],
+    "cookCategory":"Fast","cookTimeScale":1.0,"underFrac":0.2,"overFrac":1.2
+  },
+  {
+    "iD":"lettuce",
+    "ingredientName":"Lettuce",
+    "type":"Vegetable",
+    "physicalStates":["Solid"],
+    "hints":["Raw","Fresh","ToBeChopped"],
+    "flavorings":[],
+    "baseSimValues":{"sweetness":0.10,"sourness":0.00,"bitterness":0.00,"saltiness":0.00,"savoury":0.10,"aroma":0.20,"spice":0.00,"fat":0.00,"crunch":0.50,"moisture":0.80},
+    "flavorTags":[
+      {"archetype":"Crunchy","intensity":"Medium"},
+      {"archetype":"Clean","intensity":"Low"}
+    ],
+    "cookCategory":"Fast","cookTimeScale":1.0,"underFrac":0.2,"overFrac":1.2
+  }
+,{
+    "iD":"apple",
+    "ingredientName":"Apple",
+    "type":"Fruit",
+    "physicalStates":["Solid"],
+    "hints":["Raw","Fresh","ToBeChopped","ToBeSliced","ToBeDiced"],
+    "flavorings":["Sweetener","Acid"],
+    "baseSimValues":{"sweetness":0.60,"sourness":0.30,"bitterness":0.05,"saltiness":0.00,"savoury":0.05,"aroma":0.40,"spice":0.00,"fat":0.00,"crunch":0.70,"moisture":0.80},
+    "flavorTags":[
+      {"archetype":"Sweet","intensity":"Medium"},
+      {"archetype":"Sour","intensity":"Medium"},
+      {"archetype":"Crunchy","intensity":"Medium"},
+      {"archetype":"Fragrant","intensity":"Medium"},
+      {"archetype":"Sharp","intensity":"Low"},
+      {"archetype":"Lingering","intensity":"Low"},
+      {"archetype":"Clean","intensity":"Low"}
+    ],
+    "cookCategory":"Fast","cookTimeScale":1.0,"underFrac":0.2,"overFrac":1.2
+  },
+  {
+    "iD":"banana",
+    "ingredientName":"Banana",
+    "type":"Fruit",
+    "physicalStates":["Solid"],
+    "hints":["Raw","Fresh","ToBeSliced"],
+    "flavorings":["Sweetener"],
+    "baseSimValues":{"sweetness":0.80,"sourness":0.05,"bitterness":0.02,"saltiness":0.00,"savoury":0.05,"aroma":0.30,"spice":0.00,"fat":0.05,"crunch":0.20,"moisture":0.80},
+    "flavorTags":[
+      {"archetype":"Sweet","intensity":"High"},
+      {"archetype":"Soft","intensity":"Medium"},
+      {"archetype":"Fragrant","intensity":"Medium"},
+      {"archetype":"Lingering","intensity":"Low"},
+      {"archetype":"Clean","intensity":"Low"}
+    ],
+    "cookCategory":"Fast","cookTimeScale":1.0,"underFrac":0.2,"overFrac":1.2
+  },
+  {
+    "iD":"mango",
+    "ingredientName":"Mango",
+    "type":"Fruit",
+    "physicalStates":["Solid"],
+    "hints":["Raw","Fresh","ToBeChopped","ToBeSliced","ToBeDiced"],
+    "flavorings":["Sweetener","Acid"],
+    "baseSimValues":{"sweetness":0.75,"sourness":0.25,"bitterness":0.03,"saltiness":0.00,"savoury":0.05,"aroma":0.50,"spice":0.00,"fat":0.08,"crunch":0.20,"moisture":0.85},
+    "flavorTags":[
+      {"archetype":"Sweet","intensity":"Medium"},
+      {"archetype":"Soft","intensity":"Medium"},
+      {"archetype":"Fragrant","intensity":"Medium"},
+      {"archetype":"Lingering","intensity":"Low"},
+      {"archetype":"Clean","intensity":"Low"}
+    ],
+    "cookCategory":"Fast","cookTimeScale":1.0,"underFrac":0.2,"overFrac":1.2
+  },
+  {
+    "iD":"lemon",
+    "ingredientName":"Lemon",
+    "type":"Fruit",
+    "physicalStates":["Solid"],
+    "hints":["Raw","Fresh","ToBeSliced","ToBeDiced"],
+    "flavorings":["Acid"],
+    "baseSimValues":{"sweetness":0.05,"sourness":0.90,"bitterness":0.20,"saltiness":0.00,"savoury":0.05,"aroma":0.60,"spice":0.00,"fat":0.00,"crunch":0.30,"moisture":0.85},
+    "flavorTags":[
+      {"archetype":"Sour","intensity":"High"},
+      {"archetype":"Crunchy","intensity":"Medium"},
+      {"archetype":"Fragrant","intensity":"Medium"},
+      {"archetype":"Sharp","intensity":"High"},
+      {"archetype":"Lingering","intensity":"Low"},
+      {"archetype":"Clean","intensity":"Low"}
+    ],
+    "cookCategory":"Fast","cookTimeScale":1.0,"underFrac":0.2,"overFrac":1.2
+  },
+  {
+    "iD":"coconut",
+    "ingredientName":"Coconut",
+    "type":"Fruit",
+    "physicalStates":["Solid"],
+    "hints":["Raw","Fresh","ToBeChopped"],
+    "flavorings":["Sweetener","OilOrFat"],
+    "baseSimValues":{"sweetness":0.30,"sourness":0.05,"bitterness":0.05,"saltiness":0.00,"savoury":0.05,"aroma":0.40,"spice":0.00,"fat":0.60,"crunch":0.60,"moisture":0.35},
+    "flavorTags":[
+      {"archetype":"Sweet","intensity":"Medium"},
+      {"archetype":"Fatty","intensity":"Medium"},
+      {"archetype":"Crunchy","intensity":"Medium"},
+      {"archetype":"Fragrant","intensity":"Medium"},
+      {"archetype":"Lingering","intensity":"Low"},
+      {"archetype":"Clean","intensity":"Low"}
+    ],
+    "cookCategory":"Fast","cookTimeScale":1.0,"underFrac":0.2,"overFrac":1.2
+  },
+  {
+    "iD":"pineapple",
+    "ingredientName":"Pineapple",
+    "type":"Fruit",
+    "physicalStates":["Solid"],
+    "hints":["Raw","Fresh","ToBeChopped","ToBeSliced","ToBeDiced"],
+    "flavorings":["Sweetener","Acid"],
+    "baseSimValues":{"sweetness":0.65,"sourness":0.50,"bitterness":0.05,"saltiness":0.00,"savoury":0.05,"aroma":0.50,"spice":0.00,"fat":0.02,"crunch":0.50,"moisture":0.85},
+    "flavorTags":[
+      {"archetype":"Sweet","intensity":"Medium"},
+      {"archetype":"Sour","intensity":"Medium"},
+      {"archetype":"Crunchy","intensity":"Medium"},
+      {"archetype":"Fragrant","intensity":"Medium"},
+      {"archetype":"Sharp","intensity":"Medium"},
+      {"archetype":"Lingering","intensity":"Low"},
+      {"archetype":"Clean","intensity":"Low"}
+    ],
+    "cookCategory":"Fast","cookTimeScale":1.0,"underFrac":0.2,"overFrac":1.2
+  },
+  {
+    "iD":"blueberry",
+    "ingredientName":"Blueberry",
+    "type":"Fruit",
+    "physicalStates":["Solid"],
+    "hints":["Raw","Fresh"],
+    "flavorings":["Sweetener","Acid"],
+    "baseSimValues":{"sweetness":0.50,"sourness":0.30,"bitterness":0.10,"saltiness":0.00,"savoury":0.05,"aroma":0.40,"spice":0.00,"fat":0.01,"crunch":0.20,"moisture":0.85},
+    "flavorTags":[
+      {"archetype":"Sweet","intensity":"Medium"},
+      {"archetype":"Sour","intensity":"Medium"},
+      {"archetype":"Fragrant","intensity":"Medium"},
+      {"archetype":"Sharp","intensity":"Low"},
+      {"archetype":"Lingering","intensity":"Low"},
+      {"archetype":"Clean","intensity":"Low"}
+    ],
+    "cookCategory":"Fast","cookTimeScale":1.0,"underFrac":0.2,"overFrac":1.2
+  },
+  {
+    "iD":"orange",
+    "ingredientName":"Orange",
+    "type":"Fruit",
+    "physicalStates":["Solid"],
+    "hints":["Raw","Fresh","ToBeChopped","ToBeSliced","ToBeDiced"],
+    "flavorings":["Sweetener","Acid"],
+    "baseSimValues":{"sweetness":0.60,"sourness":0.40,"bitterness":0.05,"saltiness":0.00,"savoury":0.05,"aroma":0.50,"spice":0.00,"fat":0.01,"crunch":0.40,"moisture":0.85},
+    "flavorTags":[
+      {"archetype":"Sweet","intensity":"Medium"},
+      {"archetype":"Sour","intensity":"Medium"},
+      {"archetype":"Crunchy","intensity":"Medium"},
+      {"archetype":"Fragrant","intensity":"Medium"},
+      {"archetype":"Sharp","intensity":"Medium"},
+      {"archetype":"Lingering","intensity":"Low"},
+      {"archetype":"Clean","intensity":"Low"}
+    ],
+    "cookCategory":"Fast","cookTimeScale":1.0,"underFrac":0.2,"overFrac":1.2
+  },
+  {
+    "iD":"clementine",
+    "ingredientName":"Clementine",
+    "type":"Fruit",
+    "physicalStates":["Solid"],
+    "hints":["Raw","Fresh","ToBeChopped","ToBeSliced"],
+    "flavorings":["Sweetener"],
+    "baseSimValues":{"sweetness":0.70,"sourness":0.25,"bitterness":0.05,"saltiness":0.00,"savoury":0.05,"aroma":0.50,"spice":0.00,"fat":0.01,"crunch":0.40,"moisture":0.85},
+    "flavorTags":[
+      {"archetype":"Sweet","intensity":"Medium"},
+      {"archetype":"Crunchy","intensity":"Medium"},
+      {"archetype":"Fragrant","intensity":"Medium"},
+      {"archetype":"Lingering","intensity":"Low"},
+      {"archetype":"Clean","intensity":"Low"}
+    ],
+    "cookCategory":"Fast","cookTimeScale":1.0,"underFrac":0.2,"overFrac":1.2
+  },
+  {
+    "iD":"strawberry",
+    "ingredientName":"Strawberry",
+    "type":"Fruit",
+    "physicalStates":["Solid"],
+    "hints":["Raw","Fresh"],
+    "flavorings":["Sweetener","Acid"],
+    "baseSimValues":{"sweetness":0.55,"sourness":0.35,"bitterness":0.05,"saltiness":0.00,"savoury":0.05,"aroma":0.50,"spice":0.00,"fat":0.01,"crunch":0.40,"moisture":0.85},
+    "flavorTags":[
+      {"archetype":"Sweet","intensity":"Medium"},
+      {"archetype":"Sour","intensity":"Medium"},
+      {"archetype":"Crunchy","intensity":"Medium"},
+      {"archetype":"Fragrant","intensity":"Medium"},
+      {"archetype":"Sharp","intensity":"Low"},
+      {"archetype":"Lingering","intensity":"Low"},
+      {"archetype":"Clean","intensity":"Low"}
+    ],
+    "cookCategory":"Fast","cookTimeScale":1.0,"underFrac":0.2,"overFrac":1.2
+  }
+,{
+    "iD":"rice",
+    "ingredientName":"Rice",
+    "type":"Grain",
+    "physicalStates":["Starch"],
+    "hints":["Dried"],
+    "flavorings":[],
+    "baseSimValues":{"sweetness":0.10,"sourness":0.00,"bitterness":0.00,"saltiness":0.00,"savoury":0.20,"aroma":0.10,"spice":0.00,"fat":0.00,"crunch":0.60,"moisture":0.30},
+    "flavorTags":[
+      {"archetype":"Crunchy","intensity":"Medium"},
+      {"archetype":"Earthy","intensity":"Low"},
+      {"archetype":"Clean","intensity":"Low"}
+    ],
+    "cookCategory":"Slow","cookTimeScale":1.0,"underFrac":0.2,"overFrac":1.2
+  },
+  {
+    "iD":"oats",
+    "ingredientName":"Oats",
+    "type":"Grain",
+    "physicalStates":["Starch"],
+    "hints":["Dried","ToBeCrushed"],
+    "flavorings":[],
+    "baseSimValues":{"sweetness":0.15,"sourness":0.00,"bitterness":0.05,"saltiness":0.00,"savoury":0.20,"aroma":0.15,"spice":0.00,"fat":0.05,"crunch":0.70,"moisture":0.25},
+    "flavorTags":[
+      {"archetype":"Crunchy","intensity":"Medium"},
+      {"archetype":"Earthy","intensity":"Low"},
+      {"archetype":"Clean","intensity":"Low"}
+    ],
+    "cookCategory":"Slow","cookTimeScale":1.0,"underFrac":0.2,"overFrac":1.2
+  },
+  {
+    "iD":"quinoa",
+    "ingredientName":"Quinoa",
+    "type":"Grain",
+    "physicalStates":["Starch"],
+    "hints":["Dried"],
+    "flavorings":[],
+    "baseSimValues":{"sweetness":0.10,"sourness":0.00,"bitterness":0.25,"saltiness":0.00,"savoury":0.25,"aroma":0.20,"spice":0.00,"fat":0.05,"crunch":0.60,"moisture":0.30},
+    "flavorTags":[
+      {"archetype":"Crunchy","intensity":"Medium"},
+      {"archetype":"Earthy","intensity":"Low"},
+      {"archetype":"Astringent","intensity":"Low"},
+      {"archetype":"Clean","intensity":"Low"}
+    ],
+    "cookCategory":"Slow","cookTimeScale":1.0,"underFrac":0.2,"overFrac":1.2
+  },
+  {
+    "iD":"flour",
+    "ingredientName":"Flour",
+    "type":"Grain",
+    "physicalStates":["Flour"],
+    "hints":["Dried"],
+    "flavorings":[],
+    "baseSimValues":{"sweetness":0.05,"sourness":0.00,"bitterness":0.00,"saltiness":0.00,"savoury":0.15,"aroma":0.05,"spice":0.00,"fat":0.01,"crunch":0.00,"moisture":0.10},
+    "flavorTags":[
+      {"archetype":"Soft","intensity":"Low"},
+      {"archetype":"Clean","intensity":"Low"}
+    ],
+    "cookCategory":"Slow","cookTimeScale":1.0,"underFrac":0.2,"overFrac":1.2
+  },
+
+  {
+    "iD":"lentils",
+    "ingredientName":"Lentils",
+    "type":"Legume",
+    "physicalStates":["Starch"],
+    "hints":["Dried"],
+    "flavorings":[],
+    "baseSimValues":{"sweetness":0.10,"sourness":0.00,"bitterness":0.05,"saltiness":0.00,"savoury":0.30,"aroma":0.25,"spice":0.00,"fat":0.02,"crunch":0.50,"moisture":0.35},
+    "flavorTags":[
+      {"archetype":"Savory","intensity":"Medium"},
+      {"archetype":"Crunchy","intensity":"Medium"},
+      {"archetype":"Lingering","intensity":"Low"},
+      {"archetype":"Earthy","intensity":"Low"},
+      {"archetype":"Clean","intensity":"Low"}
+    ],
+    "cookCategory":"Slow","cookTimeScale":1.0,"underFrac":0.2,"overFrac":1.2
+  },
+  {
+    "iD":"chickpeas",
+    "ingredientName":"Chickpeas",
+    "type":"Legume",
+    "physicalStates":["Starch"],
+    "hints":["Dried"],
+    "flavorings":[],
+    "baseSimValues":{"sweetness":0.15,"sourness":0.00,"bitterness":0.05,"saltiness":0.00,"savoury":0.25,"aroma":0.20,"spice":0.00,"fat":0.05,"crunch":0.60,"moisture":0.35},
+    "flavorTags":[
+      {"archetype":"Crunchy","intensity":"Medium"},
+      {"archetype":"Savory","intensity":"Low"},
+      {"archetype":"Earthy","intensity":"Low"},
+      {"archetype":"Clean","intensity":"Low"}
+    ],
+    "cookCategory":"Slow","cookTimeScale":1.0,"underFrac":0.2,"overFrac":1.2
+  },
+  {
+    "iD":"beans",
+    "ingredientName":"Beans",
+    "type":"Legume",
+    "physicalStates":["Starch"],
+    "hints":["Dried"],
+    "flavorings":[],
+    "baseSimValues":{"sweetness":0.10,"sourness":0.00,"bitterness":0.05,"saltiness":0.00,"savoury":0.30,"aroma":0.25,"spice":0.00,"fat":0.03,"crunch":0.50,"moisture":0.35},
+    "flavorTags":[
+      {"archetype":"Savory","intensity":"Medium"},
+      {"archetype":"Crunchy","intensity":"Medium"},
+      {"archetype":"Lingering","intensity":"Low"},
+      {"archetype":"Earthy","intensity":"Low"},
+      {"archetype":"Clean","intensity":"Low"}
+    ],
+    "cookCategory":"Slow","cookTimeScale":1.0,"underFrac":0.2,"overFrac":1.2
+  }
+,{
+    "iD":"almond",
+    "ingredientName":"Almond",
+    "type":"Nut",
+    "physicalStates":["Solid"],
+    "hints":["Raw","Fresh","ToBeCrushed","ToBeGround"],
+    "flavorings":["OilOrFat"],
+    "baseSimValues":{
+      "sweetness":0.20,"sourness":0.00,"bitterness":0.10,"saltiness":0.00,
+      "savoury":0.10,"aroma":0.30,"spice":0.00,"fat":0.55,"crunch":0.80,"moisture":0.10
+    },
+    "flavorTags":[
+      {"archetype":"Fatty",   "intensity":"Medium"},
+      {"archetype":"Crunchy", "intensity":"High"},
+      {"archetype":"Fragrant","intensity":"Medium"},
+      {"archetype":"Lingering","intensity":"Low"},
+      {"archetype":"Clean",   "intensity":"Low"}
+    ],
+    "cookCategory":"Fast","cookTimeScale":1.0,"underFrac":0.2,"overFrac":1.2
+  },
+  {
+    "iD":"walnut",
+    "ingredientName":"Walnut",
+    "type":"Nut",
+    "physicalStates":["Solid"],
+    "hints":["Raw","Fresh","ToBeCrushed","ToBeGround"],
+    "flavorings":["OilOrFat"],
+    "baseSimValues":{
+      "sweetness":0.10,"sourness":0.00,"bitterness":0.15,"saltiness":0.00,
+      "savoury":0.20,"aroma":0.40,"spice":0.00,"fat":0.65,"crunch":0.75,"moisture":0.10
+    },
+    "flavorTags":[
+      {"archetype":"Fatty",    "intensity":"Medium"},
+      {"archetype":"Crunchy",  "intensity":"High"},
+      {"archetype":"Fragrant", "intensity":"Medium"},
+      {"archetype":"Earthy",   "intensity":"Low"},
+      {"archetype":"Lingering","intensity":"Low"},
+      {"archetype":"Clean",    "intensity":"Low"}
+    ],
+    "cookCategory":"Fast","cookTimeScale":1.0,"underFrac":0.2,"overFrac":1.2
+  },
+  {
+    "iD":"hazelnut",
+    "ingredientName":"Hazelnut",
+    "type":"Nut",
+    "physicalStates":["Solid"],
+    "hints":["Raw","Fresh","ToBeCrushed","ToBeGround"],
+    "flavorings":["OilOrFat"],
+    "baseSimValues":{
+      "sweetness":0.25,"sourness":0.00,"bitterness":0.05,"saltiness":0.00,
+      "savoury":0.15,"aroma":0.35,"spice":0.00,"fat":0.60,"crunch":0.75,"moisture":0.10
+    },
+    "flavorTags":[
+      {"archetype":"Fatty",    "intensity":"Medium"},
+      {"archetype":"Crunchy",  "intensity":"High"},
+      {"archetype":"Fragrant", "intensity":"Medium"},
+      {"archetype":"Earthy",   "intensity":"Low"},
+      {"archetype":"Lingering","intensity":"Low"},
+      {"archetype":"Clean",    "intensity":"Low"}
+    ],
+    "cookCategory":"Fast","cookTimeScale":1.0,"underFrac":0.2,"overFrac":1.2
+  },
+  {
+    "iD":"pistachio",
+    "ingredientName":"Pistachio",
+    "type":"Nut",
+    "physicalStates":["Solid"],
+    "hints":["Raw","Fresh","ToBeCrushed","ToBeGround"],
+    "flavorings":["OilOrFat"],
+    "baseSimValues":{
+      "sweetness":0.25,"sourness":0.00,"bitterness":0.05,"saltiness":0.00,
+      "savoury":0.15,"aroma":0.35,"spice":0.00,"fat":0.50,"crunch":0.75,"moisture":0.15
+    },
+    "flavorTags":[
+      {"archetype":"Fatty",    "intensity":"Medium"},
+      {"archetype":"Crunchy",  "intensity":"High"},
+      {"archetype":"Fragrant", "intensity":"Medium"},
+      {"archetype":"Earthy",   "intensity":"Low"},
+      {"archetype":"Lingering","intensity":"Low"},
+      {"archetype":"Clean",    "intensity":"Low"}
+    ],
+    "cookCategory":"Fast","cookTimeScale":1.0,"underFrac":0.2,"overFrac":1.2
+  }
+,{
+    "iD":"salt",
+    "ingredientName":"Salt",
+    "type":"Spice",
+    "physicalStates":["Solid"],
+    "hints":["Dried"],
+    "flavorings":["Salt"],
+    "baseSimValues":{
+      "sweetness":0.00,"sourness":0.00,"bitterness":0.00,"saltiness":1.00,
+      "savoury":0.10,"aroma":0.10,"spice":0.00,"fat":0.00,"crunch":0.30,"moisture":0.05
+    },
+    "flavorTags":[
+      {"archetype":"Salty",   "intensity":"High"},
+      {"archetype":"Crunchy", "intensity":"Medium"},
+      {"archetype":"Sharp",   "intensity":"High"},
+      {"archetype":"Clean",   "intensity":"Low"}
+    ],
+    "cookCategory":"Fast","cookTimeScale":1.0,"underFrac":0.2,"overFrac":1.2
+  },
+  {
+    "iD":"pepper",
+    "ingredientName":"Pepper",
+    "type":"Spice",
+    "physicalStates":["Solid"],
+    "hints":["Dried","ToBeGround"],
+    "flavorings":["Spice"],
+    "baseSimValues":{
+      "sweetness":0.00,"sourness":0.00,"bitterness":0.10,"saltiness":0.00,
+      "savoury":0.10,"aroma":0.60,"spice":0.80,"fat":0.00,"crunch":0.30,"moisture":0.05
+    },
+    "flavorTags":[
+      {"archetype":"Spicy",    "intensity":"High"},
+      {"archetype":"Pungent",  "intensity":"Medium"},
+      {"archetype":"Fragrant", "intensity":"Medium"},
+      {"archetype":"Sharp",    "intensity":"Medium"},
+      {"archetype":"Clean",    "intensity":"Low"}
+    ],
+    "cookCategory":"Fast","cookTimeScale":1.0,"underFrac":0.2,"overFrac":1.2
+  },
+  {
+    "iD":"chili",
+    "ingredientName":"Chili",
+    "type":"Spice",
+    "physicalStates":["Solid"],
+    "hints":["Dried","ToBeCrushed","ToBeGround"],
+    "flavorings":["Spice"],
+    "baseSimValues":{
+      "sweetness":0.10,"sourness":0.10,"bitterness":0.00,"saltiness":0.00,
+      "savoury":0.10,"aroma":0.50,"spice":0.90,"fat":0.00,"crunch":0.40,"moisture":0.20
+    },
+    "flavorTags":[
+      {"archetype":"Spicy",    "intensity":"High"},
+      {"archetype":"Pungent",  "intensity":"Medium"},
+      {"archetype":"Fragrant", "intensity":"Medium"},
+      {"archetype":"Sharp",    "intensity":"Medium"},
+      {"archetype":"Clean",    "intensity":"Low"}
+    ],
+    "cookCategory":"Fast","cookTimeScale":1.0,"underFrac":0.2,"overFrac":1.2
+  },
+  {
+    "iD":"cumin",
+    "ingredientName":"Cumin",
+    "type":"Spice",
+    "physicalStates":["Solid"],
+    "hints":["Dried","ToBeGround"],
+    "flavorings":["Spice"],
+    "baseSimValues":{
+      "sweetness":0.05,"sourness":0.00,"bitterness":0.10,"saltiness":0.00,
+      "savoury":0.20,"aroma":0.70,"spice":0.40,"fat":0.05,"crunch":0.30,"moisture":0.10
+    },
+    "flavorTags":[
+      {"archetype":"Spicy",    "intensity":"Medium"},
+      {"archetype":"Fragrant", "intensity":"High"},
+      {"archetype":"Earthy",   "intensity":"Low"},
+      {"archetype":"Lingering","intensity":"Low"},
+      {"archetype":"Clean",    "intensity":"Low"}
+    ],
+    "cookCategory":"Fast","cookTimeScale":1.0,"underFrac":0.2,"overFrac":1.2
+  },
+
+
+  {"iD":"basil",
+    "ingredientName":"Basil",
+    "type":"Herb",
+    "physicalStates":["Solid"],
+    "hints":["Raw","Fresh","ToBeChopped","ToBeGarnish"],
+    "flavorings":["Herb"],
+    "baseSimValues":{
+      "sweetness":0.05,"sourness":0.00,"bitterness":0.10,"saltiness":0.00,
+      "savoury":0.10,"aroma":0.80,"spice":0.20,"fat":0.00,"crunch":0.10,"moisture":0.60
+    },
+    "flavorTags":[
+      {"archetype":"Fragrant","intensity":"High"},
+      {"archetype":"Herbal",  "intensity":"Medium"},
+      {"archetype":"Spicy",   "intensity":"Low"},
+      {"archetype":"Lingering","intensity":"Low"},
+      {"archetype":"Clean",   "intensity":"Low"}
+    ],
+    "cookCategory":"Fast","cookTimeScale":1.0,"underFrac":0.2,"overFrac":1.2
+  },
+  {
+    "iD":"parsley",
+    "ingredientName":"Parsley",
+    "type":"Herb",
+    "physicalStates":["Solid"],
+    "hints":["Raw","Fresh","ToBeChopped","ToBeGarnish"],
+    "flavorings":["Herb"],
+    "baseSimValues":{
+      "sweetness":0.05,"sourness":0.00,"bitterness":0.10,"saltiness":0.00,
+      "savoury":0.05,"aroma":0.60,"spice":0.10,"fat":0.00,"crunch":0.10,"moisture":0.60
+    },
+    "flavorTags":[
+      {"archetype":"Fragrant","intensity":"Medium"},
+      {"archetype":"Herbal",  "intensity":"Medium"},
+      {"archetype":"Clean",   "intensity":"Low"}
+    ],
+    "cookCategory":"Fast","cookTimeScale":1.0,"underFrac":0.2,"overFrac":1.2
+  },
+  {
+    "iD":"thyme",
+    "ingredientName":"Thyme",
+    "type":"Herb",
+    "physicalStates":["Solid"],
+    "hints":["Raw","Fresh","ToBeChopped","Dried"],
+    "flavorings":["Herb"],
+    "baseSimValues":{
+      "sweetness":0.05,"sourness":0.00,"bitterness":0.15,"saltiness":0.00,
+      "savoury":0.20,"aroma":0.70,"spice":0.20,"fat":0.00,"crunch":0.10,"moisture":0.50
+    },
+    "flavorTags":[
+      {"archetype":"Fragrant","intensity":"Medium"},
+      {"archetype":"Herbal",  "intensity":"Medium"},
+      {"archetype":"Earthy",  "intensity":"Low"},
+      {"archetype":"Lingering","intensity":"Low"},
+      {"archetype":"Clean",   "intensity":"Low"}
+    ],
+    "cookCategory":"Fast","cookTimeScale":1.0,"underFrac":0.2,"overFrac":1.2
+  },
+  {
+    "iD":"rosemary",
+    "ingredientName":"Rosemary",
+    "type":"Herb",
+    "physicalStates":["Solid"],
+    "hints":["Raw","Fresh","ToBeChopped","Dried"],
+    "flavorings":["Herb"],
+    "baseSimValues":{
+      "sweetness":0.03,"sourness":0.00,"bitterness":0.20,"saltiness":0.00,
+      "savoury":0.20,"aroma":0.80,"spice":0.30,"fat":0.00,"crunch":0.10,"moisture":0.50
+    },
+    "flavorTags":[
+      {"archetype":"Fragrant","intensity":"High"},
+      {"archetype":"Herbal",  "intensity":"Medium"},
+      {"archetype":"Spicy",   "intensity":"Medium"},
+      {"archetype":"Earthy",  "intensity":"Low"},
+      {"archetype":"Lingering","intensity":"Low"},
+      {"archetype":"Clean",   "intensity":"Low"}
+    ],
+    "cookCategory":"Fast","cookTimeScale":1.0,"underFrac":0.2,"overFrac":1.2
+  },
+  {
+    "iD":"oregano",
+    "ingredientName":"Oregano",
+    "type":"Herb",
+    "physicalStates":["Solid"],
+    "hints":["Raw","Fresh","Dried","ToBeChopped"],
+    "flavorings":["Herb"],
+    "baseSimValues":{
+      "sweetness":0.05,"sourness":0.00,"bitterness":0.10,"saltiness":0.00,
+      "savoury":0.20,"aroma":0.70,"spice":0.20,"fat":0.00,"crunch":0.10,"moisture":0.50
+    },
+    "flavorTags":[
+      {"archetype":"Fragrant","intensity":"Medium"},
+      {"archetype":"Herbal",  "intensity":"Medium"},
+      {"archetype":"Spicy",   "intensity":"Low"},
+      {"archetype":"Earthy",  "intensity":"Low"},
+      {"archetype":"Lingering","intensity":"Low"},
+      {"archetype":"Clean",   "intensity":"Low"}
+    ],
+    "cookCategory":"Fast","cookTimeScale":1.0,"underFrac":0.2,"overFrac":1.2
+  },
+  {
+    "iD":"cilantro",
+    "ingredientName":"Cilantro",
+    "type":"Herb",
+    "physicalStates":["Solid"],
+    "hints":["Raw","Fresh","ToBeChopped","ToBeGarnish"],
+    "flavorings":["Herb"],
+    "baseSimValues":{
+      "sweetness":0.05,"sourness":0.00,"bitterness":0.05,"saltiness":0.00,
+      "savoury":0.05,"aroma":0.70,"spice":0.10,"fat":0.00,"crunch":0.10,"moisture":0.60
+    },
+    "flavorTags":[
+      {"archetype":"Fragrant","intensity":"Medium"},
+      {"archetype":"Herbal",  "intensity":"Medium"},
+      {"archetype":"Pungent", "intensity":"Low"},
+      {"archetype":"Clean",   "intensity":"Low"}
+    ],
+    "cookCategory":"Fast","cookTimeScale":1.0,"underFrac":0.2,"overFrac":1.2
+  }
+,{
+    "iD":"milk",
+    "ingredientName":"Milk",
+    "type":"Dairy",
+    "physicalStates":["Liquid"],
+    "hints":["Fresh"],
+    "flavorings":["OilOrFat","Sweetener"],
+    "baseSimValues":{
+      "sweetness":0.20,"sourness":0.05,"bitterness":0.00,"saltiness":0.05,
+      "savoury":0.10,"aroma":0.20,"spice":0.00,"fat":0.20,"crunch":0.00,"moisture":0.90
+    },
+    "flavorTags":[
+      {"archetype":"Sweet", "intensity":"Low"},
+      {"archetype":"Creamy","intensity":"Medium"},  
+      {"archetype":"Oily",  "intensity":"Medium"},  
+      {"archetype":"Clean", "intensity":"Low"}
+    ],
+    "cookCategory":"Fast","cookTimeScale":1.0,"underFrac":0.2,"overFrac":1.2
+  },
+  {
+    "iID":"cheese",
+    "ingredientName":"Cheese",
+    "type":"Dairy",
+    "physicalStates":["Solid"],
+    "hints":["Fresh","ToBeGrated"],
+    "flavorings":["OilOrFat","Salt"],
+    "baseSimValues":{
+      "sweetness":0.05,"sourness":0.05,"bitterness":0.05,"saltiness":0.50,
+      "savoury":0.60,"aroma":0.40,"spice":0.00,"fat":0.70,"crunch":0.05,"moisture":0.50
+    },
+    "flavorTags":[
+      {"archetype":"Salty", "intensity":"Medium"},
+      {"archetype":"Savory","intensity":"Medium"},
+      {"archetype":"Fatty", "intensity":"Medium"},
+      {"archetype":"Creamy","intensity":"Medium"},
+      {"archetype":"Fragrant","intensity":"Medium"},
+      {"archetype":"Lingering","intensity":"Low"},
+      {"archetype":"Clean",   "intensity":"Low"}
+    ],
+    "cookCategory":"Fast","cookTimeScale":1.0,"underFrac":0.2,"overFrac":1.2
+  },
+  {
+    "iD":"butter",
+    "ingredientName":"Butter",
+    "type":"Dairy",
+    "physicalStates":["Solid"],
+    "hints":["Fresh"],
+    "flavorings":["OilOrFat","Salt"],
+    "baseSimValues":{
+      "sweetness":0.02,"sourness":0.00,"bitterness":0.00,"saltiness":0.10,
+      "savoury":0.10,"aroma":0.40,"spice":0.00,"fat":1.00,"crunch":0.00,"moisture":0.20
+    },
+    "flavorTags":[
+      {"archetype":"Fatty",  "intensity":"High"},
+      {"archetype":"Creamy", "intensity":"Medium"},
+      {"archetype":"Fragrant","intensity":"Medium"},
+      {"archetype":"Lingering","intensity":"Low"},
+      {"archetype":"Clean",  "intensity":"Low"}
+    ],
+    "cookCategory":"Fast","cookTimeScale":1.0,"underFrac":0.2,"overFrac":1.2
+  },
+  {
+    "iD":"yogurt",
+    "ingredientName":"Yogurt",
+    "type":"Dairy",
+    "physicalStates":["Liquid"],
+    "hints":["Fresh"],
+    "flavorings":["OilOrFat","Acid"],
+    "baseSimValues":{
+      "sweetness":0.05,"sourness":0.50,"bitterness":0.02,"saltiness":0.05,
+      "savoury":0.10,"aroma":0.30,"spice":0.00,"fat":0.40,"crunch":0.00,"moisture":0.90
+    },
+    "flavorTags":[
+      {"archetype":"Sour",  "intensity":"Medium"},
+      {"archetype":"Creamy","intensity":"Medium"},
+      {"archetype":"Oily",  "intensity":"Medium"},
+      {"archetype":"Fragrant","intensity":"Medium"},
+      {"archetype":"Sharp", "intensity":"Low"},
+      {"archetype":"Clean", "intensity":"Low"}
+    ],
+    "cookCategory":"Fast","cookTimeScale":1.0,"underFrac":0.2,"overFrac":1.2
+  },
+  {
+    "iD":"cream",
+    "ingredientName":"Cream",
+    "type":"Dairy",
+    "physicalStates":["Liquid"],
+    "hints":["Fresh"],
+    "flavorings":["OilOrFat"],
+    "baseSimValues":{
+      "sweetness":0.05,"sourness":0.05,"bitterness":0.00,"saltiness":0.05,
+      "savoury":0.10,"aroma":0.30,"spice":0.00,"fat":0.90,"crunch":0.00,"moisture":0.85
+    },
+    "flavorTags":[
+      {"archetype":"Fatty", "intensity":"High"},
+      {"archetype":"Creamy","intensity":"High"},
+      {"archetype":"Oily",  "intensity":"Medium"},
+      {"archetype":"Fragrant","intensity":"Medium"},
+      {"archetype":"Lingering","intensity":"Low"},
+      {"archetype":"Clean", "intensity":"Low"}
+    ],
+    "cookCategory":"Fast","cookTimeScale":1.0,"underFrac":0.2,"overFrac":1.2
+  },
+
+
+  {"iD":"egg",
+    "ingredientName":"Egg",
+    "type":"Egg",
+    "physicalStates":["Solid"],
+    "hints":["Raw"],
+    "flavorings":["OilOrFat","Salt"],
+    "baseSimValues":{
+      "sweetness":0.02,"sourness":0.00,"bitterness":0.02,"saltiness":0.10,
+      "savoury":0.30,"aroma":0.25,"spice":0.00,"fat":0.25,"crunch":0.00,"moisture":0.75
+    },
+    "flavorTags":[
+      {"archetype":"Savory","intensity":"Medium"},
+      {"archetype":"Creamy","intensity":"Medium"},
+      {"archetype":"Oily",  "intensity":"Medium"},
+      {"archetype":"Fragrant","intensity":"Low"},
+      {"archetype":"Clean", "intensity":"Low"}
+    ],
+    "cookCategory":"Fast","cookTimeScale":1.0,"underFrac":0.2,"overFrac":1.2
+  },
+  {
+    "iD":"quail_egg",
+    "ingredientName":"Quail Egg",
+    "type":"Egg",
+    "physicalStates":["Solid"],
+    "hints":["Raw"],
+    "flavorings":["OilOrFat","Salt"],
+    "baseSimValues":{
+      "sweetness":0.03,"sourness":0.00,"bitterness":0.02,"saltiness":0.12,
+      "savoury":0.35,"aroma":0.25,"spice":0.00,"fat":0.30,"crunch":0.00,"moisture":0.75
+    },
+    "flavorTags":[
+      {"archetype":"Savory","intensity":"Medium"},
+      {"archetype":"Creamy","intensity":"Medium"},
+      {"archetype":"Oily",  "intensity":"Medium"},
+      {"archetype":"Fragrant","intensity":"Low"},
+      {"archetype":"Clean", "intensity":"Low"}
+    ],
+    "cookCategory":"Fast","cookTimeScale":1.0,"underFrac":0.2,"overFrac":1.2
+  }
+,{
+    "iD":"chicken",
+    "ingredientName":"Chicken",
+    "type":"Meat",
+    "physicalStates":["Solid"],
+    "hints":["Raw","ToBeMarinated"],
+    "flavorings":["Salt"],
+    "baseSimValues":{
+      "sweetness":0.05,"sourness":0.00,"bitterness":0.02,"saltiness":0.10,
+      "savoury":0.60,"aroma":0.40,"spice":0.00,"fat":0.20,"crunch":0.10,"moisture":0.65
+    },
+    "flavorTags":[
+      {"archetype":"Savory",   "intensity":"Medium"},
+      {"archetype":"Fragrant", "intensity":"Medium"},
+      {"archetype":"Lingering","intensity":"Low"},
+      {"archetype":"Clean",    "intensity":"Low"}
+    ],
+    "cookCategory":"Standard","cookTimeScale":1.0,"underFrac":0.2,"overFrac":1.2
+  },
+  {
+    "iD":"beef",
+    "ingredientName":"Beef",
+    "type":"Meat",
+    "physicalStates":["Solid"],
+    "hints":["Raw","ToBeMarinated"],
+    "flavorings":["OilOrFat","Salt"],
+    "baseSimValues":{
+      "sweetness":0.03,"sourness":0.00,"bitterness":0.02,"saltiness":0.15,
+      "savoury":0.70,"aroma":0.50,"spice":0.00,"fat":0.40,"crunch":0.10,"moisture":0.60
+    },
+    "flavorTags":[
+      {"archetype":"Fatty",    "intensity":"Medium"},
+      {"archetype":"Savory",   "intensity":"Medium"},
+      {"archetype":"Fragrant", "intensity":"Medium"},
+      {"archetype":"Lingering","intensity":"Low"},
+      {"archetype":"Clean",    "intensity":"Low"}
+    ],
+    "cookCategory":"Standard","cookTimeScale":1.0,"underFrac":0.2,"overFrac":1.2
+  },
+  {
+    "iD":"bacon",
+    "ingredientName":"Bacon",
+    "type":"Meat",
+    "physicalStates":["Solid"],
+    "hints":["Dried"],
+    "flavorings":["OilOrFat","Salt"],
+    "baseSimValues":{
+      "sweetness":0.05,"sourness":0.00,"bitterness":0.05,"saltiness":0.70,
+      "savoury":0.80,"aroma":0.60,"spice":0.10,"fat":0.60,"crunch":0.15,"moisture":0.30
+    },
+    "flavorTags":[
+      {"archetype":"Fatty",    "intensity":"Medium"},
+      {"archetype":"Salty",    "intensity":"Medium"},
+      {"archetype":"Savory",   "intensity":"Medium"},
+      {"archetype":"Fragrant", "intensity":"Medium"},
+      {"archetype":"Sharp",    "intensity":"Medium"},
+      {"archetype":"Lingering","intensity":"Low"},
+      {"archetype":"Clean",    "intensity":"Low"}
+    ],
+    "cookCategory":"Standard","cookTimeScale":1.0,"underFrac":0.2,"overFrac":1.2
+  },
+  {
+    "iD":"sausage",
+    "ingredientName":"Sausage",
+    "type":"Meat",
+    "physicalStates":["Solid"],
+    "hints":["Dried"],
+    "flavorings":["OilOrFat","Salt","Spice"],
+    "baseSimValues":{
+      "sweetness":0.05,"sourness":0.00,"bitterness":0.05,"saltiness":0.60,
+      "savoury":0.75,"aroma":0.60,"spice":0.30,"fat":0.50,"crunch":0.15,"moisture":0.40
+    },
+    "flavorTags":[
+      {"archetype":"Fatty",    "intensity":"Medium"},
+      {"archetype":"Salty",    "intensity":"Medium"},
+      {"archetype":"Savory",   "intensity":"Medium"},
+      {"archetype":"Spicy",    "intensity":"Medium"},
+      {"archetype":"Pungent",  "intensity":"Medium"},
+      {"archetype":"Fragrant", "intensity":"Medium"},
+      {"archetype":"Sharp",    "intensity":"Medium"},
+      {"archetype":"Lingering","intensity":"Low"},
+      {"archetype":"Clean",    "intensity":"Low"}
+    ],
+    "cookCategory":"Standard","cookTimeScale":1.0,"underFrac":0.2,"overFrac":1.2
+  },
+  {
+    "iD":"turkey",
+    "ingredientName":"Turkey",
+    "type":"Meat",
+    "physicalStates":["Solid"],
+    "hints":["Raw","ToBeMarinated"],
+    "flavorings":["Salt"],
+    "baseSimValues":{
+      "sweetness":0.03,"sourness":0.00,"bitterness":0.02,"saltiness":0.15,
+      "savoury":0.50,"aroma":0.30,"spice":0.00,"fat":0.15,"crunch":0.10,"moisture":0.65
+    },
+    "flavorTags":[
+      {"archetype":"Savory",   "intensity":"Medium"},
+      {"archetype":"Fragrant", "intensity":"Medium"},
+      {"archetype":"Lingering","intensity":"Low"},
+      {"archetype":"Clean",    "intensity":"Low"}
+    ],
+    "cookCategory":"Standard","cookTimeScale":1.0,"underFrac":0.2,"overFrac":1.2
+  },
+  {
+    "iD":"lamb",
+    "ingredientName":"Lamb",
+    "type":"Meat",
+    "physicalStates":["Solid"],
+    "hints":["Raw","ToBeMarinated"],
+    "flavorings":["OilOrFat","Salt"],
+    "baseSimValues":{
+      "sweetness":0.03,"sourness":0.00,"bitterness":0.05,"saltiness":0.20,
+      "savoury":0.65,"aroma":0.50,"spice":0.00,"fat":0.45,"crunch":0.10,"moisture":0.60
+    },
+    "flavorTags":[
+      {"archetype":"Fatty",    "intensity":"Medium"},
+      {"archetype":"Savory",   "intensity":"Medium"},
+      {"archetype":"Fragrant", "intensity":"Medium"},
+      {"archetype":"Earthy",   "intensity":"Low"},
+      {"archetype":"Lingering","intensity":"Low"},
+      {"archetype":"Clean",    "intensity":"Low"}
+    ],
+    "cookCategory":"Standard","cookTimeScale":1.0,"underFrac":0.2,"overFrac":1.2
+  },
+
+ 
+  {
+    "iD":"shrimp",
+    "ingredientName":"Shrimp",
+    "type":"Seafood",
+    "physicalStates":["Solid"],
+    "hints":["Raw","ToBeMarinated"],
+    "flavorings":["Salt"],
+    "baseSimValues":{
+      "sweetness":0.05,"sourness":0.00,"bitterness":0.02,"saltiness":0.20,
+      "savoury":0.70,"aroma":0.40,"spice":0.00,"fat":0.10,"crunch":0.20,"moisture":0.70
+    },
+    "flavorTags":[
+      {"archetype":"Savory",   "intensity":"Medium"},
+      {"archetype":"Fragrant", "intensity":"Medium"},
+      {"archetype":"Lingering","intensity":"Low"},
+      {"archetype":"Clean",    "intensity":"Low"}
+    ],
+    "cookCategory":"Standard","cookTimeScale":1.0,"underFrac":0.2,"overFrac":1.2
+  },
+  {
+    "iD":"salmon",
+    "ingredientName":"Salmon",
+    "type":"Seafood",
+    "physicalStates":["Solid"],
+    "hints":["Raw","ToBeMarinated"],
+    "flavorings":["OilOrFat","Salt"],
+    "baseSimValues":{
+      "sweetness":0.05,"sourness":0.00,"bitterness":0.02,"saltiness":0.20,
+      "savoury":0.60,"aroma":0.50,"spice":0.00,"fat":0.50,"crunch":0.15,"moisture":0.70
+    },
+    "flavorTags":[
+      {"archetype":"Fatty",    "intensity":"Medium"},
+      {"archetype":"Savory",   "intensity":"Medium"},
+      {"archetype":"Fragrant", "intensity":"Medium"},
+      {"archetype":"Lingering","intensity":"Low"},
+      {"archetype":"Clean",    "intensity":"Low"}
+    ],
+    "cookCategory":"Standard","cookTimeScale":1.0,"underFrac":0.2,"overFrac":1.2
+  },
+  {
+    "iD":"tuna",
+    "ingredientName":"Tuna",
+    "type":"Seafood",
+    "physicalStates":["Solid"],
+    "hints":["Raw","ToBeMarinated"],
+    "flavorings":["OilOrFat","Salt"],
+    "baseSimValues":{
+      "sweetness":0.05,"sourness":0.00,"bitterness":0.02,"saltiness":0.20,
+      "savoury":0.65,"aroma":0.45,"spice":0.00,"fat":0.30,"crunch":0.15,"moisture":0.70
+    },
+    "flavorTags":[
+      {"archetype":"Fatty",    "intensity":"Medium"},
+      {"archetype":"Savory",   "intensity":"Medium"},
+      {"archetype":"Fragrant", "intensity":"Medium"},
+      {"archetype":"Lingering","intensity":"Low"},
+      {"archetype":"Clean",    "intensity":"Low"}
+    ],
+    "cookCategory":"Standard","cookTimeScale":1.0,"underFrac":0.2,"overFrac":1.2
+  },
+  {
+    "iD":"crab",
+    "ingredientName":"Crab",
+    "type":"Seafood",
+    "physicalStates":["Solid"],
+    "hints":["Raw","ToBeMarinated"],
+    "flavorings":["Salt"],
+    "baseSimValues":{
+      "sweetness":0.20,"sourness":0.00,"bitterness":0.02,"saltiness":0.20,
+      "savoury":0.60,"aroma":0.40,"spice":0.00,"fat":0.10,"crunch":0.25,"moisture":0.75
+    },
+    "flavorTags":[
+      {"archetype":"Sweet",    "intensity":"Low"},
+      {"archetype":"Savory",   "intensity":"Medium"},
+      {"archetype":"Fragrant", "intensity":"Medium"},
+      {"archetype":"Lingering","intensity":"Low"},
+      {"archetype":"Clean",    "intensity":"Low"}
+    ],
+    "cookCategory":"Standard","cookTimeScale":1.0,"underFrac":0.2,"overFrac":1.2
+  },
+  {
+    "iD":"squid",
+    "ingredientName":"Squid",
+    "type":"Seafood",
+    "physicalStates":["Solid"],
+    "hints":["Raw","ToBeMarinated"],
+    "flavorings":["Salt"],
+    "baseSimValues":{
+      "sweetness":0.05,"sourness":0.00,"bitterness":0.02,"saltiness":0.20,
+      "savoury":0.50,"aroma":0.35,"spice":0.00,"fat":0.05,"crunch":0.20,"moisture":0.75
+    },
+    "flavorTags":[
+      {"archetype":"Savory",   "intensity":"Medium"},
+      {"archetype":"Fragrant", "intensity":"Medium"},
+      {"archetype":"Lingering","intensity":"Low"},
+      {"archetype":"Clean",    "intensity":"Low"}
+    ],
+    "cookCategory":"Standard","cookTimeScale":1.0,"underFrac":0.2,"overFrac":1.2
+  },
+  {
+    "iD":"clam",
+    "ingredientName":"Clam",
+    "type":"Seafood",
+    "physicalStates":["Solid"],
+    "hints":["Raw","ToBeMarinated"],
+    "flavorings":["Salt"],
+    "baseSimValues":{
+      "sweetness":0.10,"sourness":0.00,"bitterness":0.02,"saltiness":0.25,
+      "savoury":0.55,"aroma":0.35,"spice":0.00,"fat":0.05,"crunch":0.20,"moisture":0.75
+    },
+    "flavorTags":[
+      {"archetype":"Salty",    "intensity":"Medium"},
+      {"archetype":"Savory",   "intensity":"Medium"},
+      {"archetype":"Fragrant", "intensity":"Medium"},
+      {"archetype":"Lingering","intensity":"Low"},
+      {"archetype":"Clean",    "intensity":"Low"}
+    ],
+    "cookCategory":"Standard","cookTimeScale":1.0,"underFrac":0.2,"overFrac":1.2
+  },
+  {
+    "iD":"sardine",
+    "ingredientName":"Sardine",
+    "type":"Seafood",
+    "physicalStates":["Solid"],
+    "hints":["Dried"],
+    "flavorings":["OilOrFat","Salt"],
+    "baseSimValues":{
+      "sweetness":0.05,"sourness":0.00,"bitterness":0.05,"saltiness":0.30,
+      "savoury":0.60,"aroma":0.50,"spice":0.00,"fat":0.40,"crunch":0.15,"moisture":0.60
+    },
+    "flavorTags":[
+      {"archetype":"Fatty",    "intensity":"Medium"},
+      {"archetype":"Salty",    "intensity":"Medium"},
+      {"archetype":"Savory",   "intensity":"Medium"},
+      {"archetype":"Fragrant", "intensity":"Medium"},
+      {"archetype":"Sharp",    "intensity":"Low"},
+      {"archetype":"Lingering","intensity":"Low"},
+      {"archetype":"Clean",    "intensity":"Low"}
+    ],
+    "cookCategory":"Standard","cookTimeScale":1.0,"underFrac":0.2,"overFrac":1.2
+  }
+,{
+    "iD":"sugar",
+    "ingredientName":"Sugar",
+    "type":"Other",
+    "physicalStates":["Solid"],
+    "hints":["Dried"],
+    "flavorings":["Sweetener"],
+    "baseSimValues":{
+      "sweetness":1.00,"sourness":0.00,"bitterness":0.00,"saltiness":0.00,
+      "savoury":0.00,"aroma":0.10,"spice":0.00,"fat":0.00,"crunch":0.30,"moisture":0.05
+    },
+    "flavorTags":[
+      {"archetype":"Sweet",   "intensity":"High"},
+      {"archetype":"Crunchy", "intensity":"Medium"},
+      {"archetype":"Clean",   "intensity":"Low"}
+    ],
+    "cookCategory":"Fast","cookTimeScale":1.0,"underFrac":0.2,"overFrac":1.2
+  },
+  {
+    "iD":"honey",
+    "ingredientName":"Honey",
+    "type":"Other",
+    "physicalStates":["Liquid"],
+    "hints":["Raw"],
+    "flavorings":["Sweetener"],
+    "baseSimValues":{
+      "sweetness":1.00,"sourness":0.05,"bitterness":0.00,"saltiness":0.00,
+      "savoury":0.00,"aroma":0.40,"spice":0.00,"fat":0.00,"crunch":0.00,"moisture":0.90
+    },
+    "flavorTags":[
+      {"archetype":"Sweet",    "intensity":"High"},
+      {"archetype":"Fragrant", "intensity":"Medium"},
+      {"archetype":"Lingering","intensity":"Low"},
+      {"archetype":"Clean",    "intensity":"Low"}
+    ],
+    "cookCategory":"Fast","cookTimeScale":1.0,"underFrac":0.2,"overFrac":1.2
+  },
+  {
+    "iD":"vinegar",
+    "ingredientName":"Vinegar",
+    "type":"Other",
+    "physicalStates":["Liquid"],
+    "hints":["Raw"],
+    "flavorings":["Acid"],
+    "baseSimValues":{
+      "sweetness":0.05,"sourness":0.90,"bitterness":0.05,"saltiness":0.00,
+      "savoury":0.00,"aroma":0.40,"spice":0.00,"fat":0.00,"crunch":0.00,"moisture":0.95
+    },
+    "flavorTags":[
+      {"archetype":"Sour",     "intensity":"High"},
+      {"archetype":"Fragrant", "intensity":"Medium"},
+      {"archetype":"Sharp",    "intensity":"High"},
+      {"archetype":"Clean",    "intensity":"Low"}
+    ],
+    "cookCategory":"Fast","cookTimeScale":1.0,"underFrac":0.2,"overFrac":1.2
+  },
+  {
+    "iD":"tomato_paste",
+    "ingredientName":"Tomato Paste",
+    "type":"Other",
+    "physicalStates":["Solid"],
+    "hints":["Dried","ToBePureed"],
+    "flavorings":["Sweetener","Acid"],
+    "baseSimValues":{
+      "sweetness":0.40,"sourness":0.50,"bitterness":0.05,"saltiness":0.05,
+      "savoury":0.40,"aroma":0.50,"spice":0.00,"fat":0.05,"crunch":0.05,"moisture":0.50
+    },
+    "flavorTags":[
+      {"archetype":"Sweet",    "intensity":"Medium"},
+      {"archetype":"Sour",     "intensity":"Medium"},
+      {"archetype":"Savory",   "intensity":"Medium"},
+      {"archetype":"Fragrant", "intensity":"Medium"},
+      {"archetype":"Sharp",    "intensity":"Medium"},
+      {"archetype":"Lingering","intensity":"Low"},
+      {"archetype":"Clean",    "intensity":"Low"}
+    ],
+    "cookCategory":"Fast","cookTimeScale":1.0,"underFrac":0.2,"overFrac":1.2
+  },
+  {
+    "iD":"water",
+    "ingredientName":"Water",
+    "type":"Other",
+    "physicalStates":["Liquid"],
+    "hints":["Raw"],
+    "flavorings":[],
+    "baseSimValues":{
+      "sweetness":0.00,"sourness":0.00,"bitterness":0.00,"saltiness":0.00,
+      "savoury":0.00,"aroma":0.00,"spice":0.00,"fat":0.00,"crunch":0.00,"moisture":1.00
+    },
+    "flavorTags":[
+      {"archetype":"Clean","intensity":"Low"}
+    ],
+    "cookCategory":"Fast","cookTimeScale":1.0,"underFrac":0.2,"overFrac":1.2
+  },
+  {
+    "iD":"stock",
+    "ingredientName":"Stock",
+    "type":"Other",
+    "physicalStates":["Liquid"],
+    "hints":["Raw"],
+    "flavorings":["Salt"],
+    "baseSimValues":{
+      "sweetness":0.05,"sourness":0.00,"bitterness":0.02,"saltiness":0.30,
+      "savoury":0.60,"aroma":0.40,"spice":0.00,"fat":0.05,"crunch":0.00,"moisture":0.95
+    },
+    "flavorTags":[
+      {"archetype":"Salty",    "intensity":"Medium"},
+      {"archetype":"Savory",   "intensity":"Medium"},
+      {"archetype":"Fragrant", "intensity":"Medium"},
+      {"archetype":"Lingering","intensity":"Low"},
+      {"archetype":"Clean",    "intensity":"Low"}
+    ],
+    "cookCategory":"Fast","cookTimeScale":1.0,"underFrac":0.2,"overFrac":1.2
+  },
+  {
+    "iD": "olive_oil",
+    "ingredientName": "Olive Oil",
+    "type": "Other",
+    "physicalStates": ["Liquid"],
+    "hints": ["Raw"],
+    "flavorings": ["OilOrFat"],
+    "baseSimValues": {
+      "sweetness": 0.00,
+      "sourness": 0.00,
+      "bitterness": 0.05,
+      "saltiness": 0.00,
+      "savoury": 0.05,
+      "aroma": 0.40,
+      "spice": 0.00,
+      "fat": 1.00,
+      "crunch": 0.00,
+      "moisture": 0.00
+    },
+    "flavorTags": [
+      { "archetype": "Fatty",   "intensity": "High" },
+      { "archetype": "Oily",    "intensity": "Medium" },
+      { "archetype": "Fragrant", "intensity": "Low" },
+      { "archetype": "Smooth",   "intensity": "Low" }
+    ],
+    "cookCategory": "Fast",
+    "cookTimeScale": 1.0,
+    "underFrac": 0.2,
+    "overFrac": 1.2
+  },
+  {
+    "iD": "corn_oil",
+    "ingredientName": "Corn Oil",
+    "type": "Other",
+    "physicalStates": ["Liquid"],
+    "hints": ["Raw"],
+    "flavorings": ["OilOrFat"],
+    "baseSimValues": {
+      "sweetness": 0.00,
+      "sourness": 0.00,
+      "bitterness": 0.02,
+      "saltiness": 0.00,
+      "savoury": 0.05,
+      "aroma": 0.20,
+      "spice": 0.00,
+      "fat": 1.00,
+      "crunch": 0.00,
+      "moisture": 0.00
+    },
+    "flavorTags": [
+      { "archetype": "Fatty",   "intensity": "High" },
+      { "archetype": "Oily",    "intensity": "Medium" },
+      { "archetype": "Smooth",  "intensity": "Low" }
+    ],
+    "cookCategory": "Fast",
+    "cookTimeScale": 1.0,
+    "underFrac": 0.2,
+    "overFrac": 1.2
+  },
+  {
+    "iD": "sunflower_oil",
+    "ingredientName": "Sunflower Oil",
+    "type": "Other",
+    "physicalStates": ["Liquid"],
+    "hints": ["Raw"],
+    "flavorings": ["OilOrFat"],
+    "baseSimValues": {
+      "sweetness": 0.00,
+      "sourness": 0.00,
+      "bitterness": 0.01,
+      "saltiness": 0.00,
+      "savoury": 0.05,
+      "aroma": 0.15,
+      "spice": 0.00,
+      "fat": 1.00,
+      "crunch": 0.00,
+      "moisture": 0.00
+    },
+    "flavorTags": [
+      { "archetype": "Fatty",   "intensity": "High" },
+      { "archetype": "Oily",    "intensity": "Medium" },
+      { "archetype": "Smooth",  "intensity": "Low" }
+    ],
+    "cookCategory": "Fast",
+    "cookTimeScale": 1.0,
+    "underFrac": 0.2,
+    "overFrac": 1.2
+  },
+  {
+    "iD": "animal_fat",
+    "ingredientName": "Animal Fat",
+    "type": "Other",
+    "physicalStates": ["Solid"],
+    "hints": ["Raw"],
+    "flavorings": ["OilOrFat"],
+    "baseSimValues": {
+      "sweetness": 0.00,
+      "sourness": 0.00,
+      "bitterness": 0.00,
+      "saltiness": 0.00,
+      "savoury": 0.10,
+      "aroma": 0.30,
+      "spice": 0.00,
+      "fat": 1.00,
+      "crunch": 0.00,
+      "moisture": 0.00
+    },
+    "flavorTags": [
+      { "archetype": "Fatty",   "intensity": "High" },
+      { "archetype": "Creamy",  "intensity": "Medium" },
+      { "archetype": "Savory",  "intensity": "Low" }
+    ],
+    "cookCategory": "Fast",
+    "cookTimeScale": 1.0,
+    "underFrac": 0.2,
+    "overFrac": 1.2
+  },
+  {
+    "iD": "cheese",
+    "ingredientName": "Cheese",
+    "type": "Dairy",
+    "physicalStates": ["Solid"],
+    "hints": ["Fresh", "ToBeGrated"],
+    "flavorings": ["OilOrFat", "Salt"],
+    "baseSimValues": {
+      "sweetness": 0.05,
+      "sourness": 0.05,
+      "bitterness": 0.05,
+      "saltiness": 0.50,
+      "savoury": 0.60,
+      "aroma": 0.40,
+      "spice": 0.00,
+      "fat": 0.70,
+      "crunch": 0.05,
+      "moisture": 0.50
+    },
+    "flavorTags": [
+      { "archetype": "Savory",  "intensity": "Medium" },
+      { "archetype": "Fatty",   "intensity": "Medium" },
+      { "archetype": "Creamy",  "intensity": "Medium" },
+      { "archetype": "Fragrant","intensity": "Medium" },
+      { "archetype": "Sharp",   "intensity": "Low" },
+      { "archetype": "Clean",   "intensity": "Low" }
+    ],
+    "cookCategory": "Fast",
+    "cookTimeScale": 1.0,
+    "underFrac": 0.2,
+    "overFrac": 1.2
+  }
+]}

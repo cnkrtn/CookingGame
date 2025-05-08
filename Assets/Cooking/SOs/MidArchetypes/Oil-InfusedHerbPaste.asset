@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc6e351a769543bc96da134d77ee4375, type: 3}
+  m_Name: Oil-InfusedHerbPaste
+  m_EditorClassIdentifier: 
+  archetypeName: Oil-InfusedHerbPaste
+  requiredTool: {fileID: 11400000, guid: 034e2567019602b499546f31abefba5e, type: 2}
+  requiredActions:
+  - {fileID: 11400000, guid: 8f719c09d7d5fb24389ba9430a6c8193, type: 2}
+  allowedIngredientTypes: 0a000000
+  allowedPhysicalStates: 01000000
+  requiredMidArchetypes: []
+  resultingPrepareTags: 0b000000
+  resultingCookingTags: 
+  resultingAssemblyTags: 
+  allowMultipleIngredients: 0
+  resultingPhysicalState: 5

@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a920a1489d964e64bbcfa987c423d80e, type: 3}
+  m_Name: PotStationSO
+  m_EditorClassIdentifier: 
+  toolId: PotStation
+  displayName: Pot Station
+  icon: {fileID: 0}
+  speedModifier: 1
+  qualityModifier: 0
+  allowedActions:
+  - {fileID: 11400000, guid: a836d737865e67d4b88cf80e6191eaef, type: 2}
+  - {fileID: 11400000, guid: 324a3a82c772a8b4bab6fc44b637c4e9, type: 2}
+  - {fileID: 11400000, guid: 581d24a33b7901e4980758c0f3c9acd0, type: 2}
+  allowedIngredientTypes: 0000000001000000040000000200000003000000050000000600000007000000090000000a00000008000000
+  allowedPhysicalStates: 000000000100000002000000050000000600000004000000

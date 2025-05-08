@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc6e351a769543bc96da134d77ee4375, type: 3}
+  m_Name: PreppedMeat
+  m_EditorClassIdentifier: 
+  archetypeName: PreppedMeat
+  requiredTool: {fileID: 11400000, guid: e77d4ee858b23d34db375f665c483bbe, type: 2}
+  requiredActions:
+  - {fileID: 11400000, guid: 369c53abbac05b64e9831a4602bcfbdb, type: 2}
+  - {fileID: 11400000, guid: 1e3575aa43f225845a10bc754399aa46, type: 2}
+  - {fileID: 11400000, guid: b3015e6bafe0fff4194f5e07f3f9c3ac, type: 2}
+  - {fileID: 11400000, guid: 97d6f59c87bdf8f479f8e14f4950c2c4, type: 2}
+  - {fileID: 11400000, guid: 383007392e9942140b966a12dc4e80f3, type: 2}
+  allowedIngredientTypes: 0400000005000000
+  allowedPhysicalStates: 01000000
+  requiredMidArchetypes: []
+  resultingPrepareTags: 0000000001000000020000000800000007000000
+  resultingCookingTags: 
+  resultingAssemblyTags: 
+  allowMultipleIngredients: 0
+  resultingPhysicalState: 1

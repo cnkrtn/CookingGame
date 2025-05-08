@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96dd55edcfd24cb09e68798ad42a3fab, type: 3}
+  m_Name: vinegar
+  m_EditorClassIdentifier: 
+  iD: vinegar
+  ingredientName: Vinegar
+  icon: {fileID: 0}
+  type: 11
+  physicalStates: 00000000
+  hints: 00000000
+  flavorings: 03000000
+  baseSimValues:
+    sweetness: 0.05
+    sourness: 0.9
+    bitterness: 0.05
+    saltiness: 0
+    savoury: 0
+    aroma: 0.4
+    spice: 0
+    fat: 0
+    crunch: 0
+    moisture: 0.95
+  flavorTags:
+  - archetype: 2
+    intensity: 0
+  - archetype: 19
+    intensity: 0
+  - archetype: 21
+    intensity: 0
+  - archetype: 22
+    intensity: 0
+  cookCategory: 0
+  cookTimeScale: 1
+  underFrac: 0.2
+  overFrac: 1.2

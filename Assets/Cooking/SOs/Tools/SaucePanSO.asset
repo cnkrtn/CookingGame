@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a920a1489d964e64bbcfa987c423d80e, type: 3}
+  m_Name: SaucePanSO
+  m_EditorClassIdentifier: 
+  toolId: SaucePan
+  displayName: Sauce Pan
+  icon: {fileID: 0}
+  speedModifier: 1
+  qualityModifier: 0
+  allowedActions:
+  - {fileID: 11400000, guid: 42550d8d7a6d6d74e82fcdf8990927fb, type: 2}
+  - {fileID: 11400000, guid: 2e67da5136952094586fb19d8307685a, type: 2}
+  allowedIngredientTypes: 000000000100000004000000090000000a00000006000000070000000500000008000000
+  allowedPhysicalStates: 00000000050000000600000001000000

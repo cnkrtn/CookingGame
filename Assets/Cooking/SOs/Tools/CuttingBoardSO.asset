@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a920a1489d964e64bbcfa987c423d80e, type: 3}
+  m_Name: CuttingBoardSO
+  m_EditorClassIdentifier: 
+  toolId: CuttingBoard
+  displayName: Cutting Board
+  icon: {fileID: 0}
+  speedModifier: 1
+  qualityModifier: 0
+  allowedActions:
+  - {fileID: 11400000, guid: 369c53abbac05b64e9831a4602bcfbdb, type: 2}
+  - {fileID: 11400000, guid: 1e3575aa43f225845a10bc754399aa46, type: 2}
+  - {fileID: 11400000, guid: b3015e6bafe0fff4194f5e07f3f9c3ac, type: 2}
+  - {fileID: 11400000, guid: f3902f6979df99f44a996b2037adcfd1, type: 2}
+  - {fileID: 11400000, guid: d84363f8c1bfb43449eefd44a59c34d3, type: 2}
+  - {fileID: 11400000, guid: 71774bcacac4eed489a2cf60857ae21f, type: 2}
+  - {fileID: 11400000, guid: f9dff14f4c90a33489778eeb16b1a5eb, type: 2}
+  allowedIngredientTypes: 000000000100000004000000050000000600000007000000
+  allowedPhysicalStates: 0100000004000000

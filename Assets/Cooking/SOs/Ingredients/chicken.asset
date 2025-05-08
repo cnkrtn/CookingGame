@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96dd55edcfd24cb09e68798ad42a3fab, type: 3}
+  m_Name: chicken
+  m_EditorClassIdentifier: 
+  iD: chicken
+  ingredientName: Chicken
+  icon: {fileID: 0}
+  type: 4
+  physicalStates: 01000000
+  hints: 0000000008000000
+  flavorings: 04000000
+  baseSimValues:
+    sweetness: 0.05
+    sourness: 0
+    bitterness: 0.02
+    saltiness: 0.1
+    savoury: 0.6
+    aroma: 0.4
+    spice: 0
+    fat: 0.2
+    crunch: 0.1
+    moisture: 0.65
+  flavorTags:
+  - archetype: 4
+    intensity: 0
+  - archetype: 19
+    intensity: 0
+  - archetype: 20
+    intensity: 0
+  - archetype: 22
+    intensity: 0
+  cookCategory: 1
+  cookTimeScale: 1
+  underFrac: 0.2
+  overFrac: 1.2

@@ -1,0 +1,103 @@
+{
+  "tools": [
+    {
+      "id": "CuttingBoard",
+      "name": "Cutting Board",
+      "allowedActions": ["Chop", "Slice", "Mince", "Peel", "Julienne", "Cube", "Dice"],
+      "speedModifier": 1,
+      "qualityModifier": 0,
+      "allowedIngredientTypes": ["Vegetable", "Fruit", "Meat", "Seafood", "Dairy", "Egg"],
+      "allowedPhysicalStates": ["Solid", "Dough"]
+    },
+    {
+      "id": "MortarPestle",
+      "name": "Mortar & Pestle",
+      "allowedActions": ["Crush", "Grind", "Puree", "Powderize"],
+      "speedModifier": 1,
+      "qualityModifier": 0,
+      "allowedIngredientTypes": ["Spice", "Herb", "Nut", "Vegetable", "Fruit", "Grain"],
+      "allowedPhysicalStates": ["Solid", "Flour", "Paste", "Dried"]
+    },
+    {
+      "id": "MixingBowl",
+      "name": "Mixing Bowl",
+      "allowedActions": ["Mix", "Whisk", "Fold", "Marinate"],
+      "speedModifier": 1,
+      "qualityModifier": 0,
+      "allowedIngredientTypes": ["Vegetable", "Fruit", "Meat", "Spice", "Herb", "Dairy", "Egg", "Grain", "Seafood", "Nut", "Other"],
+      "allowedPhysicalStates": ["Liquid", "Solid", "Starch", "Flour", "Paste", "Dried"]
+    },
+    {
+      "id": "KneadingBoard",
+      "name": "Kneading Board",
+      "allowedActions": ["Knead", "Roll", "Stretch"],
+      "speedModifier": 1,
+      "qualityModifier": 0,
+      "allowedIngredientTypes": ["Grain"],
+      "allowedPhysicalStates": ["Flour", "Dough"]
+    },
+    {
+      "id": "MeatPrepStation",
+      "name": "Meat Prep Station",
+      "allowedActions": ["Tenderize", "Trim", "Marinate"],
+      "speedModifier": 1,
+      "qualityModifier": 0,
+      "allowedIngredientTypes": ["Meat"],
+      "allowedPhysicalStates": ["Solid"]
+    },
+    {
+      "id": "PotStation",
+      "name": "Pot Station",
+      "allowedActions": ["Simmer", "Boil", "Blanch"],
+      "speedModifier": 1,
+      "qualityModifier": 0,
+      "allowedIngredientTypes": ["Vegetable", "Fruit", "Meat", "Grain", "Legume", "Seafood", "Dairy", "Egg", "Spice", "Herb", "Nut"],
+      "allowedPhysicalStates": ["Liquid", "Solid", "Starch", "Paste", "Dried", "Dough"]
+    },
+    {
+      "id": "PanStation",
+      "name": "Pan Station",
+      "allowedActions": ["Saute", "Sear", "Fry", "Crisp"],
+      "speedModifier": 1,
+      "qualityModifier": 0,
+      "allowedIngredientTypes": ["Vegetable", "Fruit", "Meat", "Grain", "Dairy", "Egg", "Spice", "Nut", "Herb", "Other"],
+      "allowedPhysicalStates": ["Solid", "Flour", "Dough", "Liquid", "Dried", "Paste"]
+    },
+    {
+      "id": "OvenStation",
+      "name": "Oven Station",
+      "allowedActions": ["Bake", "Roast", "Broil"],
+      "speedModifier": 1,
+      "qualityModifier": 0,
+      "allowedIngredientTypes": ["Grain", "Meat", "Vegetable", "Fruit", "Dairy", "Egg", "Seafood", "Nut"],
+      "allowedPhysicalStates": ["Solid", "Flour", "Dough", "Paste", "Dried"]
+    },
+    {
+      "id": "GrillStation",
+      "name": "Grill Station",
+      "allowedActions": ["Grill", "Smoke", "Glaze"],
+      "speedModifier": 1,
+      "qualityModifier": 0,
+      "allowedIngredientTypes": ["Meat", "Vegetable", "Seafood", "Spice", "Herb"],
+      "allowedPhysicalStates": ["Solid", "Dried"]
+    },
+    {
+      "id": "SaucePan",
+      "name": "Sauce Pan",
+      "allowedActions": ["Reduce", "Infuse"],
+      "speedModifier": 1,
+      "qualityModifier": 0,
+      "allowedIngredientTypes": ["Vegetable", "Fruit", "Meat", "Spice", "Herb", "Dairy", "Egg", "Seafood", "Nut"],
+      "allowedPhysicalStates": ["Liquid", "Paste", "Dried", "Solid"]
+    },
+    {
+      "id": "CompositeStation",
+      "name": "Composite Station",
+      "allowedActions": ["Stuff", "Assemble", "CasseroleAssembly"],
+      "speedModifier": 1,
+      "qualityModifier": 0,
+      "allowedIngredientTypes": ["Vegetable", "Fruit", "Grain", "Legume", "Meat", "Seafood", "Dairy", "Egg", "Nut", "Spice", "Herb", "Other"],
+      "allowedPhysicalStates": ["Solid", "Liquid", "Starch", "Flour", "Dough", "Paste", "Dried"]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a920a1489d964e64bbcfa987c423d80e, type: 3}
+  m_Name: OvenStationSO
+  m_EditorClassIdentifier: 
+  toolId: OvenStation
+  displayName: Oven Station
+  icon: {fileID: 0}
+  speedModifier: 1
+  qualityModifier: 0
+  allowedActions:
+  - {fileID: 11400000, guid: 201a01a691b61e4489737e00460330d7, type: 2}
+  - {fileID: 11400000, guid: 59d9ab0ab16f13a408fc66425c062460, type: 2}
+  - {fileID: 11400000, guid: b89d306548db4dc48a4298090e7f9a2b, type: 2}
+  allowedIngredientTypes: 0200000004000000000000000100000006000000070000000500000008000000
+  allowedPhysicalStates: 0100000003000000040000000500000006000000

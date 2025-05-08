@@ -1,0 +1,70 @@
+
+{
+  "archetypes": [
+    {
+      "archetypeName":           "PreppedVeggie",
+      "requiredTool":            "CuttingBoardSO",
+      "requiredActions":         ["ChopSO","SliceSO","MinceSO","PeelSO"],
+      "allowedIngredientTypes":  ["Vegetable"],
+      "allowedPhysicalStates":   ["Solid"],
+      "requiredMidArchetypes":   [],
+      "resultingPrepareTags":    ["Chopped","Sliced","Minced","Peeled"],
+      "resultingCookingTags":    [],
+      "resultingAssemblyTags":   [],
+      "allowMultipleIngredients": false,
+      "resultingPhysicalState":  "Solid"
+    },
+    {
+      "archetypeName":           "PreppedFruit",
+      "requiredTool":            "CuttingBoardSO",
+      "requiredActions":         ["ChopSO","SliceSO","MinceSO","PeelSO"],
+      "allowedIngredientTypes":  ["Fruit"],
+      "allowedPhysicalStates":   ["Solid"],
+      "requiredMidArchetypes":   [],
+      "resultingPrepareTags":    ["Chopped","Sliced","Minced","Peeled"],
+      "resultingCookingTags":    [],
+      "resultingAssemblyTags":   [],
+      "allowMultipleIngredients": false,
+      "resultingPhysicalState":  "Solid"
+    },
+    {
+      "archetypeName":           "PreppedMeat",
+      "requiredTool":            "CuttingBoardSO",
+      "requiredActions":         ["ChopSO","SliceSO","MinceSO","TrimSO","TenderizeSO"],
+      "allowedIngredientTypes":  ["Meat","Seafood"],
+      "allowedPhysicalStates":   ["Solid"],
+      "requiredMidArchetypes":   [],
+      "resultingPrepareTags":    ["Chopped","Sliced","Minced","Trimmed","Tenderized"],
+      "resultingCookingTags":    [],
+      "resultingAssemblyTags":   [],
+      "allowMultipleIngredients": false,
+      "resultingPhysicalState":  "Solid"
+    },
+    {
+      "archetypeName":           "CrushedSpice",
+      "requiredTool":            "MortarPestleSO",
+      "requiredActions":         ["CrushSO"],
+      "allowedIngredientTypes":  ["Spice"],
+      "allowedPhysicalStates":   ["Solid"],
+      "requiredMidArchetypes":   [],
+      "resultingPrepareTags":    ["Crushed"],
+      "resultingCookingTags":    [],
+      "resultingAssemblyTags":   [],
+      "allowMultipleIngredients": false,
+      "resultingPhysicalState":  "Paste"
+    },
+    {
+      "archetypeName":           "Oil-InfusedHerbPaste",
+      "requiredTool":            "MortarPestleSO",
+      "requiredActions":         ["PureeSO"],
+      "allowedIngredientTypes":  ["Herb"],
+      "allowedPhysicalStates":   ["Solid"],
+      "requiredMidArchetypes":   [],
+      "resultingPrepareTags":    ["Pureed"],
+      "resultingCookingTags":    [],
+      "resultingAssemblyTags":   [],
+      "allowMultipleIngredients": false,
+      "resultingPhysicalState":  "Paste"
+    }
+  ]
+}

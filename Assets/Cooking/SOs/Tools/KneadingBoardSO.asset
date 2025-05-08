@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a920a1489d964e64bbcfa987c423d80e, type: 3}
+  m_Name: KneadingBoardSO
+  m_EditorClassIdentifier: 
+  toolId: KneadingBoard
+  displayName: Kneading Board
+  icon: {fileID: 0}
+  speedModifier: 1
+  qualityModifier: 0
+  allowedActions:
+  - {fileID: 11400000, guid: eafb60c3295b78d47a215222e8599e01, type: 2}
+  - {fileID: 11400000, guid: 89bd9381f7edc004f823857863d49a7a, type: 2}
+  - {fileID: 11400000, guid: 9f2fc409f53dfc24da01061091698216, type: 2}
+  allowedIngredientTypes: 02000000
+  allowedPhysicalStates: 0300000004000000

@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96dd55edcfd24cb09e68798ad42a3fab, type: 3}
+  m_Name: lentils
+  m_EditorClassIdentifier: 
+  iD: lentils
+  ingredientName: Lentils
+  icon: {fileID: 0}
+  type: 3
+  physicalStates: 02000000
+  hints: 0f000000
+  flavorings: 
+  baseSimValues:
+    sweetness: 0.1
+    sourness: 0
+    bitterness: 0.05
+    saltiness: 0
+    savoury: 0.3
+    aroma: 0.25
+    spice: 0
+    fat: 0.02
+    crunch: 0.5
+    moisture: 0.35
+  flavorTags:
+  - archetype: 4
+    intensity: 0
+  - archetype: 5
+    intensity: 0
+  - archetype: 20
+    intensity: 0
+  - archetype: 15
+    intensity: 0
+  - archetype: 22
+    intensity: 0
+  cookCategory: 2
+  cookTimeScale: 1
+  underFrac: 0.2
+  overFrac: 1.2

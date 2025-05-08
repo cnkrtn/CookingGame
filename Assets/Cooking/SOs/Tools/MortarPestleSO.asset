@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a920a1489d964e64bbcfa987c423d80e, type: 3}
+  m_Name: MortarPestleSO
+  m_EditorClassIdentifier: 
+  toolId: MortarPestle
+  displayName: Mortar & Pestle
+  icon: {fileID: 0}
+  speedModifier: 1
+  qualityModifier: 0
+  allowedActions:
+  - {fileID: 11400000, guid: 335b163ebbb444f4290efb6bce02db61, type: 2}
+  - {fileID: 11400000, guid: 29e190239a7fe524b8587cc59eac81bb, type: 2}
+  - {fileID: 11400000, guid: 8f719c09d7d5fb24389ba9430a6c8193, type: 2}
+  - {fileID: 11400000, guid: 15eb5fec1ad255c47b114cda464145a6, type: 2}
+  allowedIngredientTypes: 090000000a00000008000000000000000100000002000000
+  allowedPhysicalStates: 01000000030000000500000006000000

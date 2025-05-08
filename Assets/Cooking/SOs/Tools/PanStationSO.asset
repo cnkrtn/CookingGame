@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a920a1489d964e64bbcfa987c423d80e, type: 3}
+  m_Name: PanStationSO
+  m_EditorClassIdentifier: 
+  toolId: PanStation
+  displayName: Pan Station
+  icon: {fileID: 0}
+  speedModifier: 1
+  qualityModifier: 0
+  allowedActions:
+  - {fileID: 11400000, guid: ee05c89da49926c45ba1cdc9f9d4cfd2, type: 2}
+  - {fileID: 11400000, guid: 8e2098334da9a994181fe13c4b205144, type: 2}
+  - {fileID: 11400000, guid: 5291182716f2ace4e94123c97046e144, type: 2}
+  - {fileID: 11400000, guid: 8fe4a2eb06580f149b2a9529d29e47c9, type: 2}
+  allowedIngredientTypes: 00000000010000000400000002000000060000000700000009000000080000000a0000000b000000
+  allowedPhysicalStates: 010000000300000004000000000000000600000005000000

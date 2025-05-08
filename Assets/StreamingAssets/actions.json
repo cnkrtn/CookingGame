@@ -1,0 +1,42 @@
+{
+  "actions": [
+    {
+      "id": "Reduce",
+      "name": "Reduce",
+      "prepareTags": [],
+      "cookingTags": ["Reduced"],
+      "assemblyTags": [],
+      "simModifiers": {
+        "sweetness": 0.05,
+        "sourness": 0,
+        "bitterness": 0,
+        "saltiness": 0.05,
+        "savoury": 0.05,
+        "aroma": 0.10,
+        "spice": 0,
+        "fat": 0,
+        "crunch": 0,
+        "moisture": -0.20
+      }
+    },
+    {
+      "id": "Infuse",
+      "name": "Infuse",
+      "prepareTags": [],
+      "cookingTags": ["Infused"],
+      "assemblyTags": [],
+      "simModifiers": {
+        "sweetness": 0,
+        "sourness": 0,
+        "bitterness": 0,
+        "saltiness": 0,
+        "savoury": 0,
+        "aroma": 0.15,
+        "spice": 0.05,
+        "fat": 0,
+        "crunch": 0,
+        "moisture": 0
+      }
+    }
+  ]
+}
